@@ -2,15 +2,18 @@
   "name": "vue-chat",
   "version": "0.1.0",
   "private": true,
+  "author": "abujalance",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
     "bootstrap-vue": "^2.1.0",
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
     "firebase": "^7.21.1",
     "jquery": "^3.5.1",
     "moment": "^2.29.0",
